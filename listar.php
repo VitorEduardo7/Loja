@@ -4,7 +4,7 @@
 <body>
     <div class="container">
         <h1>Bem vindo ao meu 1° sistema web com CRUD</h1>
-        <h3>Matheus de Pauli Batista</h3>
+        <h3>Vitor Eduardo</h3>
         <div class="container">
         <table class="table">
             <thead>
@@ -30,8 +30,8 @@
             echo "
             <td>
                 <div class='btn-group' role='group' aria-label='Basic mixed styles example'>
-                            <a href='#' type='button' class='btn btn-success'>Atualizar</a>
-                            <a href='#' type='button' class='btn btn-dark'>Apagar</a>
+                    <a href='form_atualizar.php?id=".$produto['id']."' type='button' class='btn btn-success'>Atualizar</a>
+                    <a href='#' type='button' class='btn btn-dark'>Apagar</a>
                 </div>
             </td>
             ";
