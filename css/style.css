@@ -1,0 +1,65 @@
+/* Container principal centralizado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1); /* fundo semi-transparente */
+    border: 3px solid #0066cc;            /* borda azul */
+    border-radius: 15px;                  /* cantos arredondados */
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Títulos dentro do container */
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000000;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7);
+}
+
+.container h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #0a0606;
+}
+
+/* Ajuste dos botões dentro do container */
+.container .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container .btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container .btn-danger {
+    background: linear-gradient(145deg, #ff4d4d, #cc0000);
+    border: none;
+    color: #fff;
+}
+
+.container .btn-danger:hover {
+    background: linear-gradient(145deg, #ff6666, #990000);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 77, 77, 0.5);
+}
+
+.container .btn-dark {
+    background: linear-gradient(145deg, #3399ff, #0066cc);
+    border: none;
+    color: #fff;
+}
+
+.container .btn-dark:hover {
+    background: linear-gradient(145deg, #66aaff, #004c99);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(51, 153, 255, 0.5);
+}

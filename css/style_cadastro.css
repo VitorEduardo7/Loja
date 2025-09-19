@@ -1,0 +1,66 @@
+/* Fundo roxo sólido */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #A020F0; /* roxo sólido */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card centralizado */
+.container {
+    background-color: #ffffff;  /* card branco */
+    border-radius: 15px;
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Título */
+.container h2 {
+    margin-bottom: 25px;
+    color: #6a11cb;
+    font-weight: bold;
+}
+
+/* Inputs */
+.container .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.container .form-control:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+    outline: none;
+}
+
+/* Botões */
+.container .btn-primary {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #6a11cb;
+    border: none;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.container .btn-primary:hover {
+    background-color: #2575fc;
+}
+
+.container .btn-warning {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
